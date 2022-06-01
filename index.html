@@ -34,6 +34,14 @@
       </div>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 800,
+    glare: true, 
+    "max-glare":1, 
+  });
+  </script>
 </body>
 </html>
